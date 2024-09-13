@@ -10,8 +10,8 @@ services:
     volumes:
       - minio-data:/data
     environment:
-      MINIO_ACCESS_KEY: "keplin"
-      MINIO_SECRET_KEY: "batata123"
+      MINIO_ACCESS_KEY: "YOUR_USER"
+      MINIO_SECRET_KEY: "YOUR_PASSWORD"
     command: server /data --console-address ":9001"
 
 volumes:
